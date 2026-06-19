@@ -1,0 +1,38 @@
+footer {
+  padding: 80px 0 40px;
+  border-top: 1px solid var(--border);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-col h4 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.footer-col a {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 14px;
+  transition: 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: var(--gold);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
